@@ -7,5 +7,8 @@ class SayHello {
 	public static function say() {
 		return 'say something';
 	}
+	public static function go() {
+		return 'go somewhere';
+	}
 }
 ?>

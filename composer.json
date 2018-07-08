@@ -17,5 +17,6 @@
         "psr-4": {
             "dangvanduc90\\SayHello\\": "src/"
         }
-    }
+    },
+	"version": 1.0.0
 }

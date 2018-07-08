@@ -1,0 +1,21 @@
+{
+    "name": "dangvanduc90/hello-world",
+    "description": "\"The first composer package\"",
+    "type": "library",
+    "authors": [
+        {
+            "name": "dangvanduc90",
+            "email": "dangvanduc0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "dangvanduc90\\SayHello\\": "src/"
+        }
+    }
+}

@@ -11,9 +11,10 @@
     "require": {
         "php": "^5.3.3 || ^7.0"
     },
-	"autoload": {
-        "psr-4": {
-            "dangvanduc90\\SayHello\\": "src/"
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "dangvanduc90\\SayHello\\": "src"
         }
     }
 }
